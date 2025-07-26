@@ -1,5 +1,10 @@
-program hello;
+program HelloProc;
+
+procedure SayHello;
 begin
-	writeln('Hello, World');
-	writeln('Goodbye, world.')
+	writeln('Hello, World')
+end;
+
+begin
+	SayHello
 end.
